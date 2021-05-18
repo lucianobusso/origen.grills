@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+    width: 100%;
+}
+
+.nav-item{
+    list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+ .menu__options{
+     display: inline;
+ }
+
+ .navbar{
+     margin: 0px;
+ }
+
+ #quienes__somos{
+     height: 800px;
+     background-color: red;
+ }
+
+ #quien__soy{
+    height: 800px;
+    background-color: green;
+}
+
+#productos{
+    height: 800px;
+    background-color: yellow;
+}
+
+#contacto{
+    height: 800px;
+    background-color: pink;
+}
