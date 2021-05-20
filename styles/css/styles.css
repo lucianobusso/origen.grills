@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*MENU*/
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -26,6 +28,23 @@ a{
  .navbar{
      margin: 0px;
  }
+
+/*COMIENZO DEL MAIN*/
+
+ #index{
+    height: 200px;
+    background-color: blue;
+}
+body{    
+    background-image: url("../../media/fondoAsado.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+}
 
  #quienes__somos{
      height: 800px;
