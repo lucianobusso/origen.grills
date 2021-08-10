@@ -1,67 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/*MENU*/
+body {
+  font-family: "Montserrat", sans-serif; }
 
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-    width: 100%;
-}
+.mayusc {
+  text-transform: uppercase; }
 
-.nav-item{
-    list-style: none;}
+/* HEADER */
+.navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 5%; }
 
-a{
-    text-decoration: none;
-}
+.imgHeader {
+  width: 100%; }
 
- .menu__options{
-     display: inline;
- }
+/* SOBRE NOSOTROS */
+#sobreNosotros {
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
- .navbar{
-     margin: 0px;
- }
+.colorPrimario {
+  color: white; }
 
-/*COMIENZO DEL MAIN*/
+/* NUESTROS PRODUCTOS */
+#nuestrosProductos {
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
- #index{
-    height: 200px;
-    background-color: blue;
-}
-body{    
-    background-image: url("../../media/fondoAsado.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
+.fogoneroElemento {
+  background-color: white; }
 
-h1{
-    text-align: center;
-    align-items: center;
-}
+.colorSecundario {
+  color: black; }
 
- #quienes__somos{
-     height: 800px;
-     background-color: red;
- }
+.imgProd {
+  width: 100%; }
 
- #quien__soy{
-    height: 800px;
-    background-color: green;
-}
+.titulo1 {
+  font-size: 1.5rem; }
 
-#productos{
-    height: 800px;
-    background-color: yellow;
-}
+.imgCarousel {
+  width: 100%; }
 
-#contacto{
-    height: 800px;
-    background-color: pink;
-}
+.marginImgCarousel {
+  margin-top: 1.75rem; }
+
+/* FOGONERO HIERRO */
+.fogoneroHierro {
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.padding2 {
+  padding-top: 2%;
+  padding-bottom: 2%; }

@@ -1,0 +1,77 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $fontPcipal;
+}
+
+.mayusc{
+    text-transform: uppercase;
+}
+
+/* HEADER */
+.navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.imgHeader{
+    width: 100%;
+}
+
+/* SOBRE NOSOTROS */
+#sobreNosotros{
+    background-color: $color__secundario;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.colorPrimario{
+    color: $color__principal;
+}
+
+/* NUESTROS PRODUCTOS */
+#nuestrosProductos{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fogoneroElemento{
+    background-color: $color__principal;
+}
+
+.colorSecundario{
+    color: $color__secundario;
+}
+
+.imgProd{
+    width: 100%;
+}
+
+.titulo1{
+    font-size: $sizeMedium;
+}
+
+.imgCarousel{
+    width: 100%;
+}
+
+.marginImgCarousel{
+    margin-top: 1.75rem;
+}
+
+/* FOGONERO HIERRO */
+.fogoneroHierro{
+    background-color: $color__secundario;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.padding2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
