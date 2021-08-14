@@ -10,6 +10,9 @@ body {
   text-transform: uppercase; }
 
 /* HEADER */
+.imgLogoHeader {
+  width: 15rem; }
+
 .navbar-collapse {
   justify-content: flex-end;
   margin-right: 5%; }
@@ -46,8 +49,17 @@ body {
 .imgCarousel {
   width: 100%; }
 
+/* .imgCarousel:hover{
+    filter: blur(4px);
+} */
 .marginImgCarousel {
   margin-top: 1.75rem; }
+
+.carouselDesktop {
+  display: block; }
+
+.carouselMobile {
+  display: none; }
 
 /* FOGONERO HIERRO */
 .fogoneroHierro {
@@ -58,3 +70,11 @@ body {
 .padding2 {
   padding-top: 2%;
   padding-bottom: 2%; }
+
+@media (max-width: 576px) {
+  #nuestrosProductos {
+    padding: 0; }
+  .carouselDesktop {
+    display: none; }
+  .carouselMobile {
+    display: block; } }
